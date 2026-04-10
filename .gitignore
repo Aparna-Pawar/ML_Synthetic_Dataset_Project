@@ -1,2 +1,9 @@
 venv/
+
 data/
+
+.csv
+insurance_fraud_dataset_500k.csv
+insurance_fraud_dataset(raw).csv
+.pkl
+.joblib
