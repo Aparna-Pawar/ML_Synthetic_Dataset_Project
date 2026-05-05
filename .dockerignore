@@ -1,0 +1,51 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter / notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Dataset files (very important)
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+
+# Model training artifacts (keep only final model)
+models/
+checkpoints/
+*.h5
+*.pt
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing files
+tests/
+pytest.ini
+
+# Documentation
+README.md
+docs/
+
+# Docker files not needed inside image
+docker-compose.yml
+.dockerignore
